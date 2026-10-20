@@ -1,0 +1,5 @@
+*.ipynb -diff
+*.npz binary
+*.gz binary
+*.docx binary
+*.png binary
