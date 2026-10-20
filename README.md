@@ -13,6 +13,11 @@ The study searched every official BRISC 2025 test image for relatives in the tra
 | `notebooks/BRISC_contamination_controlled_multitask_v3.ipynb` | Main analysis, rounds 1–3, saved with its outputs. It downloads the public datasets, audits the official split, builds the groups of related images, trains every model (three seeds) and computes the pre-specified analyses and the explanation tests. |
 | `notebooks/BRISC_round4_addendum.ipynb` | Round 4, with no training. It recomputes the corrected statistics behind the appendix tables of the article from the per-image predictions that the main notebook saves. |
 
+Both notebooks are saved here with their outputs. They can also be opened in Google Colab:
+
+- Main analysis (v3): https://colab.research.google.com/drive/173TnsBCNK6k1ESjvkqsqGRdK0NhFYEGS?usp=sharing
+- Round 4 addendum: https://colab.research.google.com/drive/1YLhknjPjzzMe_m2NSakqEOAz9OGWMern?usp=sharing
+
 Run the main notebook first. The round-4 notebook reads the main notebook's saved run folders (`MyDrive/brisc_runs`) from Google Drive.
 
 ## Data sources
